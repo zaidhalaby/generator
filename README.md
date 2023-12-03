@@ -1,4 +1,5 @@
 # Generator
+### Your group's development plan which should include milestones, individual tasks, and who is responsible for those tasks.
 ### Video of code running:
 (https://drive.google.com/file/d/1tzjCQi8IO6O1uWxGVk8F38GpP3nQ_rJF/view?usp=sharing) 
 ### Description of the program's purpose (why does it exist and/or who is it for?)
