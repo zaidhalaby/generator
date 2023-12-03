@@ -1,4 +1,6 @@
 # generator
+### Video of code running:
+(https://drive.google.com/file/d/1tzjCQi8IO6O1uWxGVk8F38GpP3nQ_rJF/view?usp=sharing) 
 ### Description of the program's purpose (why does it exist and/or who is it for?)
 #### It exists because we all know the common issue of taking ages to choose a song or movie based on your mood. That is why we created this code, which can be used by most people ages 10+.
 ### Summary of the program's functionality (what does it do?)
