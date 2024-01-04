@@ -1,4 +1,4 @@
-# Generator
+# Song Generator V1
 ### Your group's development plan which should include milestones, individual tasks, and who is responsible for those tasks:
 #### Our group split up work among us three. I worked on getting an input and creating the if statements with Hamza. Hamza created the formatting for the outputs and all of the dictionaries while Jad worked on getting all of the information for the dictionaries and assisted me and Hamza as well. Our milestone is now being able to get multiple songs and a working code but our final goal is a GUI and the ability to have one song recommended rather than all the applicable songs. Moving forward we will decide our responsibilities.
 ### Video of code running:
@@ -12,3 +12,8 @@
 #### filtered_songs = [song for song in longarrays if song["genre"] == user_genre] 
 #### This code takes a song from the longarrays and defines it as a song that fits the genre that is the same as the user genre/input. It stores it as filtered_songs.
 
+# Song Generator V2
+
+
+### Video of code running:
+(https://drive.google.com/file/d/1iaBBdvMpZHStjX1rfKbxIPj6NaQQymW6/view?usp=sharing)
