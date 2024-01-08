@@ -13,7 +13,41 @@
 #### This code takes a song from the longarrays and defines it as a song that fits the genre that is the same as the user genre/input. It stores it as filtered_songs.
 
 # Song Generator V2
+### What does it do/who is it for?
+#### Our updated code has the same main function as the original version- to choose a song or movie based on your mood or the genre you like. This is because a common issue we all face is wasting time trying to find something to watch or listen to. Our new code makes this even more efficient as the new implementation of a login/username and password allows the user to view their previous suggestions too.
+###  A description, with code segments, of a "breakthrough moment" in which you solved a particularly difficult problem, learned to do something new or independently overcame being stuck
+#### One section that we got stuck on and had a breakthrough moment for was trying to add a login. This is the code that we used: 
+#### def SorL():
+####  while True:
+####      SorL = input("Sign Up or Log in? (respond with S or L) ").capitalize()
+####      if SorL == "S" or SorL == "L":
+####          return SorL
+####          break  # This break statement is not needed and can be removed
+####      while SorL != "S" and SorL != "L":
+####          SorL = input("Sign Up or Log in? (cmon bro i said respond with S or L not that baloney) ").capitalize()
+####          if SorL == "S" or SorL == "L":
+####              return SorL
+####              # The break statement is not needed here either
 
+#### def log():
+####  print("LOG IN")
+####  username = input("Username: ").capitalize()
+####  password = input("Password: ")
+####  file_path = 'users.txt'
+####  with open(file_path, 'r') as file:
+####      for line in file:
+####          if f"Username: {username}, Password: {password}" in line:
+####              print(f"Welcome {username}!")
+####              return username
+####      else:
+####          choice = "hello"
+####          while choice not in ["L", "I"]:
+####              choice = input("Your password or username is wrong. Input 'L' to try again or 'I' to start over the function ").capitalize()
+####              if choice == "I":
+####                  return identifyuser()
+####              elif choice == "L":
+####                  return log()
 
+#### This code uses numerous lists, if statements and other components of code to run. It begins by asking the user wether they want to sign up or log in and using an if-else statement to work based on that input. It then stores all of the users and makes sure that the computer identifies the user when they log in, saving and showing their previous suggestions. This was a breakthrough moment as it allowed our code to be enhanced and have even more meaning in it. 
 ### Video of code running:
 (https://drive.google.com/file/d/1iaBBdvMpZHStjX1rfKbxIPj6NaQQymW6/view?usp=sharing)
