@@ -52,4 +52,4 @@
 #### This code uses numerous lists, if statements and other components of code to run. It begins by asking the user whether they want to sign up or log in and using an if-else statement to work based on that input. It then stores all of the users and makes sure that the computer identifies the user when they log in, saving and showing their previous suggestions. This was a breakthrough moment as it allowed our code to be enhanced and have even more meaning in it. This code has the goal of authorizing the user and utilizing appending the text file by adding the user name and password to a text file and then prompting the user to input the same username and password in the login feature. This allows the user to conserve the user history and not get any outputs from other users. The big problem with this user identification was the storage of the information which was combatted with the usage of text lists which allowed the function to work sufficiently.
 
 ### Video of code running:
-(https://drive.google.com/file/d/1iaBBdvMpZHStjX1rfKbxIPj6NaQQymW6/view?usp=sharing)
+(https://drive.google.com/file/d/1FZSs_8fRkCIrFXtMCEv0C03yJ_ydGidE/view)
